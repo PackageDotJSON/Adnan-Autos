@@ -971,3 +971,8 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.custom-card {
+  display: flex;
+  justify-content: center;
+}
