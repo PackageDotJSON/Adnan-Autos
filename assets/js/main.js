@@ -1,6 +1,9 @@
 (function() {
   "use strict";
 
+  const modalPopUp = document.getElementById("modalPopup");
+  modalPopUp.click();
+  
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
